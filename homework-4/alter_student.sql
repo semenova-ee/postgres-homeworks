@@ -2,8 +2,8 @@
 CREATE TABLE student (
   student_id serial PRIMARY KEY,
   first_name varchar (20),
-  last_name varchar (20)
-  birthday date
+  last_name varchar (20),
+  birthday date,
   phone varchar (20)
 );
 
